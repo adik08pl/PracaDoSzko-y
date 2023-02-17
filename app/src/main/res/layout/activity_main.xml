@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="355dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="440dp"
+        android:text="ODPOWIEDZ3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="355dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="240dp"
+        android:text="ODPOWIEDZ1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="355dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="340dp"
+        android:text="ODPOWIEDZ2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="355dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="540dp"
+        android:text="Odpowiedz4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="24dp"
+        android:text="Wynik: 0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="136dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Pytanie numer: 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl0"
+        android:layout_width="191dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="64dp"
+        android:text="Pytanie"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl4"
+        android:layout_width="316dp"
+        android:layout_height="524dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="72dp"
+        android:text="Złóż papiery już dziś,czekamy na ciebie"
+        android:textSize="120px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
