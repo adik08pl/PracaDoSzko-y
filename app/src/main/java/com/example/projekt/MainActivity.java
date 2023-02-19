@@ -99,6 +99,14 @@ public class MainActivity extends AppCompatActivity {
         btn2.setText(odpowiedziBlad1.get(tura));
         btn3.setText(odpowiedziBlad2.get(tura));
         btn4.setText(odpowiedziBlad3.get(tura));
+        btn1.setVisibility(View.INVISIBLE);
+        btn2.setVisibility(View.INVISIBLE);
+        btn3.setVisibility(View.INVISIBLE);
+        btn4.setVisibility(View.INVISIBLE);
+        btn1.setVisibility(View.VISIBLE);
+        btn2.setVisibility(View.VISIBLE);
+        btn3.setVisibility(View.VISIBLE);
+        btn4.setVisibility(View.VISIBLE);
     }
     private void sprawdzCzyKoniec(int tura) {
        if(tura==poprawneOdpowiedzi.size()){
