@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
         btn2=(Button) findViewById(R.id.btn2);
         btn3=(Button) findViewById(R.id.btn3);
         btn4=(Button) findViewById(R.id.btn4);
-        lbl0=(TextView) findViewById(R.id.lbl0);
-        lbl1=(TextView) findViewById(R.id.lbl1);
+        lbl0=(TextView) findViewById(R.id.lbl1);
+        lbl1=(TextView) findViewById(R.id.lbl0);
         lbl2=(TextView) findViewById(R.id.lbl2);
         przyciski.add(btn1);
         przyciski.add(btn2);
@@ -109,11 +109,11 @@ public class MainActivity extends AppCompatActivity {
         btn4.setVisibility(View.VISIBLE);
     }
     private void sprawdzCzyKoniec(int tura) {
-       if(tura==poprawneOdpowiedzi.size()){
-           Intent myActivity = new Intent(this, EndingActivity.class);
-           myActivity.putExtra("WYNIK", wynik);
-           startActivity(myActivity);
-       }
+        if(tura==poprawneOdpowiedzi.size()){
+            Intent myActivity = new Intent(this, EndingActivity.class);
+            myActivity.putExtra("WYNIK", wynik);
+            startActivity(myActivity);
+        }
     }
     private void dodajPytanie(String pytanie,String odpowiedzBlad1,String odpowiedzBlad2,String odpowiedzBlad3,String odpowiedzPoprawna){
         pytania.add(pytanie);
