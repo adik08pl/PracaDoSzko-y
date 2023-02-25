@@ -6,25 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".EndingActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="349dp"
-        android:layout_height="304dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="320dp"
-        android:text="Czekamy na ciebie, złóż papiery już dziś"
-        android:textSize="190px"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/lblWynik"
-        android:layout_width="213dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Gratuluję, twoje punkty to: "
-        android:textSize="70px"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/lblWynik"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:autoSizeMaxTextSize="100dp"
+            android:autoSizeMinTextSize="10dp"
+            android:autoSizeStepGranularity="2dp"
+            android:autoSizeTextType="uniform"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoSizeMaxTextSize="150dp"
+            android:autoSizeMinTextSize="20dp"
+            android:autoSizeStepGranularity="2dp"
+            android:autoSizeTextType="uniform"
+            android:text="Złóż papiery już dziś, czekamy na ciebie" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
